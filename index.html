@@ -237,11 +237,11 @@ const CONFIG = {
   },
 
   // Countries that get the reduced rate.
-  reducedRate: ["IN", "PK", "LK", "NP", "BD", "ID"],
+  reducedRate: ["IN", "PK", "LK", "NP", "BD", "ID", "PH", "VN", "EG", "KE", "NG", "GH", "TZ"],
 
   pricing: {
     standard: { amount: "$99", terms: "One price. Sixteen seats." },
-    reduced:  { amount: "$30", terms: "Reduced tuition for India, Pakistan, Sri Lanka, Nepal, Bangladesh and Indonesia. Your card will show your local equivalent at checkout." }
+    reduced:  { amount: "$30", terms: "Reduced tuition for eligible countries. Your card will show your local equivalent at checkout." }
   }
 };
 
@@ -250,9 +250,12 @@ const CONFIG = {
 const COUNTRIES = [
   ["US","United States"],["IN","India"],["CA","Canada"],["GB","United Kingdom"],
   ["AE","United Arab Emirates"],["SA","Saudi Arabia"],["QA","Qatar"],["KW","Kuwait"],
+  ["EG","Egypt"],
   ["OM","Oman"],["BH","Bahrain"],["AU","Australia"],["NZ","New Zealand"],
-  ["SG","Singapore"],["MY","Malaysia"],["ID","Indonesia"],["NP","Nepal"],["LK","Sri Lanka"],
-  ["BD","Bangladesh"],["PK","Pakistan"],["ZA","South Africa"],["IE","Ireland"],
+  ["SG","Singapore"],["MY","Malaysia"],["ID","Indonesia"],["VN","Vietnam"],
+  ["NP","Nepal"],["LK","Sri Lanka"],
+  ["BD","Bangladesh"],["PK","Pakistan"],["ZA","South Africa"],["KE","Kenya"],
+  ["NG","Nigeria"],["GH","Ghana"],["TZ","Tanzania"],["IE","Ireland"],
   ["DE","Germany"],["NL","Netherlands"],["ES","Spain"],["IT","Italy"],
   ["BR","Brazil"],["MX","Mexico"],["PH","Philippines"],["XX","Somewhere else"]
 ];
@@ -264,6 +267,9 @@ const TZ = {
   "Asia/Karachi":"PK","Asia/Dhaka":"BD","Asia/Kathmandu":"NP","Asia/Colombo":"LK",
   "Asia/Singapore":"SG","Asia/Kuala_Lumpur":"MY","Asia/Jakarta":"ID",
   "Asia/Makassar":"ID","Asia/Jayapura":"ID","Asia/Manila":"PH",
+  "Asia/Ho_Chi_Minh":"VN","Asia/Saigon":"VN","Africa/Cairo":"EG",
+  "Africa/Nairobi":"KE","Africa/Lagos":"NG","Africa/Accra":"GH",
+  "Africa/Dar_es_Salaam":"TZ",
   "Europe/London":"GB","Europe/Dublin":"IE","Europe/Berlin":"DE",
   "Europe/Amsterdam":"NL","Europe/Madrid":"ES","Europe/Rome":"IT",
   "Australia/Sydney":"AU","Australia/Melbourne":"AU","Australia/Brisbane":"AU",
@@ -298,6 +304,7 @@ function guessCountry(){
 
 function render(){
   const code    = countryEl.value;
+  const country = countryEl.options[countryEl.selectedIndex]?.textContent || "";
   const reduced = CONFIG.reducedRate.includes(code);
   const band    = reduced ? "reduced" : "standard";
   const price   = CONFIG.pricing[band];
@@ -330,7 +337,7 @@ function render(){
   payEl.href = url.toString();
 
   payNoteEl.textContent = reduced
-    ? "Reduced tuition applies to payments made with a card issued in India, Pakistan, Sri Lanka, Nepal, Bangladesh or Indonesia. Payment is handled by Stripe."
+    ? `Reduced tuition applies to payments made with a card issued in ${country}. Payment is handled by Stripe.`
     : "Payment is handled by Stripe. You will be asked for your name, email and phone number there.";
 }
 
