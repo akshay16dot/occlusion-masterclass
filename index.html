@@ -236,13 +236,12 @@ const CONFIG = {
     reduced:  "https://buy.stripe.com/5kQeVd3uNaayciK4YLeZ201"
   },
 
-  // Countries that get the reduced rate. A short named list is defensible.
-  // Adding a fourth ad hoc turns a stated policy into a negotiation.
-  reducedRate: ["IN", "PK", "LK"],
+  // Countries that get the reduced rate.
+  reducedRate: ["IN", "PK", "LK", "NP", "BD"],
 
   pricing: {
     standard: { amount: "$99", terms: "One price. Sixteen seats." },
-    reduced:  { amount: "$30", terms: "Reduced tuition for India, Pakistan and Sri Lanka. Your card will show your local equivalent at checkout." }
+    reduced:  { amount: "$30", terms: "Reduced tuition for India, Pakistan, Sri Lanka, Nepal and Bangladesh. Your card will show your local equivalent at checkout." }
   }
 };
 
@@ -330,7 +329,7 @@ function render(){
   payEl.href = url.toString();
 
   payNoteEl.textContent = reduced
-    ? "Reduced tuition applies to payments made with a card issued in India, Pakistan or Sri Lanka. Payment is handled by Stripe."
+    ? "Reduced tuition applies to payments made with a card issued in India, Pakistan, Sri Lanka, Nepal or Bangladesh. Payment is handled by Stripe."
     : "Payment is handled by Stripe. You will be asked for your name, email and phone number there.";
 }
 
