@@ -3,293 +3,299 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Occlusion Made Easy — live online masterclass with Dr. Akshay Parmar</title>
-<meta name="description" content="A live online masterclass on occlusion, from first principles through to implants. Twelve clinicians. Saturday 19 September.">
+<title>Occlusion Made Easy | Live masterclass with Dr. Akshay Parmar</title>
+<meta name="description" content="A live, case-based occlusion masterclass for dentists. Learn a repeatable chairside system for crowns, implant restorations and review visits.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root{
-    --ground:#FBFAF9;
+    --ground:#FBFAF8;
+    --paper:#FFFFFF;
     --navy:#192743;
+    --navy-deep:#111C31;
     --ink:#2B2F38;
-    --slate:#5C6370;
-    --rule:#DCDFE5;
-    --brass:#A8845C;
-    --measure:37rem;
+    --slate:#626A78;
+    --rule:#DDE0E5;
+    --brass:#967247;
+    --brass-soft:#EFE7DC;
+    --measure:68rem;
   }
   *{box-sizing:border-box}
-  html{-webkit-text-size-adjust:100%}
-  body{
-    margin:0;
-    background:var(--ground);
-    color:var(--ink);
-    font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-    font-size:17px;
-    line-height:1.65;
-    -webkit-font-smoothing:antialiased;
-  }
-  .wrap{max-width:var(--measure);margin:0 auto;padding:0 1.5rem}
-
-  /* ---- masthead ---- */
-  .masthead{background:var(--navy);color:var(--ground);padding:4.5rem 0 3.5rem}
-  .masthead .kicker{
-    font-size:.8125rem;letter-spacing:.08em;color:#9BA6BC;margin:0 0 1.75rem;
-  }
-  h1{
-    font-family:"Cormorant Garamond",Georgia,serif;
-    font-weight:300;
-    font-size:clamp(2.75rem,8vw,4.25rem);
-    line-height:1.04;
-    letter-spacing:.005em;
-    margin:0 0 1.25rem;
-  }
-  .standfirst{
-    font-size:1.125rem;line-height:1.55;color:#C9D0DD;margin:0;max-width:30rem;
-  }
-
-  /* ---- shared ---- */
-  section{padding:3.25rem 0}
-  section + section{border-top:1px solid var(--rule)}
-  h2{
-    font-family:"Cormorant Garamond",Georgia,serif;
-    font-weight:400;font-size:1.875rem;line-height:1.2;
-    color:var(--navy);margin:0 0 1.5rem;
-  }
+  html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--ground);color:var(--ink);font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
+  img{display:block;max-width:100%}
+  .wrap{width:min(var(--measure),calc(100% - 3rem));margin:0 auto}
+  .eyebrow{margin:0 0 1rem;color:var(--brass);font-size:.78rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase}
+  h1,h2,h3{font-family:"Cormorant Garamond",Georgia,serif;color:var(--navy);font-weight:400}
+  h1{margin:0;font-size:clamp(3.2rem,7vw,5.7rem);line-height:.96;letter-spacing:-.015em}
+  h2{margin:0 0 1.2rem;font-size:clamp(2.2rem,4vw,3.25rem);line-height:1.05}
+  h3{margin:0 0 .45rem;font-size:1.55rem;line-height:1.2}
   p{margin:0 0 1rem}
   p:last-child{margin-bottom:0}
+  section{padding:5rem 0}
+  section + section{border-top:1px solid var(--rule)}
+  .button{display:inline-flex;align-items:center;justify-content:center;min-height:3.35rem;padding:.85rem 1.4rem;background:var(--navy);color:#fff;border:1px solid var(--navy);border-radius:3px;text-decoration:none;font-weight:600;transition:background .18s ease,transform .18s ease}
+  .button:hover,.button:focus-visible{background:var(--navy-deep);transform:translateY(-1px)}
+  .button:focus-visible{outline:2px solid var(--brass);outline-offset:3px}
 
-  /* ---- facts ---- */
-  dl.facts{margin:0;display:grid;grid-template-columns:9rem 1fr;gap:.9rem 1.5rem}
-  dl.facts dt{color:var(--slate);font-size:.9375rem}
+  .masthead{background:var(--navy);color:#fff;padding:5.4rem 0 4.5rem}
+  .hero-grid{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(17rem,.65fr);gap:4rem;align-items:end}
+  .masthead h1{color:#fff;max-width:11ch}
+  .standfirst{margin:1.5rem 0 0;max-width:35rem;color:#D4D9E2;font-size:1.2rem;line-height:1.55}
+  .hero-action{border-left:1px solid rgba(255,255,255,.22);padding-left:2rem}
+  .hero-action .date{color:#fff;font-weight:500}
+  .hero-action .time{color:#BFC7D5;font-size:.94rem;line-height:1.5;margin:.25rem 0 1.35rem}
+  .hero-action .button{width:100%;background:var(--brass);border-color:var(--brass)}
+  .hero-action .button:hover,.hero-action .button:focus-visible{background:#84623B}
+  .hero-action small{display:block;margin-top:.8rem;color:#AEB8CA;font-size:.8rem}
+  .method-band{background:#fff;border-bottom:1px solid var(--rule)}
+  .method{display:grid;grid-template-columns:repeat(4,1fr)}
+  .method div{padding:1.25rem 1rem;border-right:1px solid var(--rule)}
+  .method div:first-child{padding-left:0}
+  .method div:last-child{border-right:0}
+  .method span{display:block;color:var(--brass);font-size:.72rem;font-weight:600;letter-spacing:.1em}
+  .method strong{font-family:"Cormorant Garamond",Georgia,serif;color:var(--navy);font-size:1.35rem;font-weight:500}
+
+  .intro{font-size:1.18rem;color:var(--slate);max-width:50rem}
+  .outcome-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:2.5rem}
+  .card{background:var(--paper);border:1px solid var(--rule);padding:1.7rem}
+  .card .number{display:block;margin-bottom:1rem;color:var(--brass);font-size:.75rem;font-weight:600;letter-spacing:.1em}
+  .card p{color:var(--slate);font-size:.95rem}
+
+  .preview{background:#F3EFE8}
+  .preview-grid{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(17rem,.65fr);gap:3rem;align-items:center}
+  .course-frame{overflow:hidden;background:#fff;border:1px solid #D8D0C5;box-shadow:0 18px 45px rgba(25,39,67,.08)}
+  .preview-copy ul{margin:1.35rem 0 0;padding:0;list-style:none}
+  .preview-copy li{position:relative;padding:.55rem 0 .55rem 1.35rem;border-top:1px solid rgba(150,114,71,.25)}
+  .preview-copy li::before{content:"";position:absolute;left:0;top:1.15rem;width:.4rem;height:.4rem;border-radius:50%;background:var(--brass)}
+  .caption{margin:.8rem 0 0;color:var(--slate);font-size:.82rem}
+
+  .cases-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem;margin-top:2.5rem}
+  .case{display:grid;grid-template-columns:3rem 1fr;gap:.8rem;background:#fff;border:1px solid var(--rule);padding:1.45rem}
+  .case b{color:var(--brass);font-size:.78rem;letter-spacing:.08em}
+  .case strong{display:block;color:var(--navy);font-weight:600;margin-bottom:.25rem}
+  .case p{color:var(--slate);font-size:.92rem}
+  .scope{margin-top:1.5rem;padding:1rem 1.2rem;background:var(--brass-soft);color:#6F5638;font-size:.92rem}
+
+  .details{background:#fff}
+  .details-grid{display:grid;grid-template-columns:.75fr 1.25fr;gap:4rem}
+  dl.facts{margin:0;display:grid;grid-template-columns:8rem 1fr;gap:.85rem 1.25rem}
+  dl.facts dt{color:var(--slate);font-size:.9rem}
   dl.facts dd{margin:0}
-  dl.facts dd small{display:block;color:var(--slate);font-size:.875rem;line-height:1.5}
+  dl.facts dd small{display:block;color:var(--slate);font-size:.82rem;line-height:1.5}
+  .who{border-left:1px solid var(--rule);padding-left:2.5rem}
+  .who ul{margin:.8rem 0 0;padding-left:1.15rem;color:var(--slate)}
+  .who li{margin:.4rem 0}
 
-  /* ---- syllabus ---- */
-  ol.syllabus{margin:0;padding:0;list-style:none;counter-reset:s}
-  ol.syllabus li{
-    counter-increment:s;position:relative;padding:0 0 1.15rem 2.5rem;
-  }
-  ol.syllabus li:last-child{padding-bottom:0}
-  ol.syllabus li::before{
-    content:counter(s,decimal-leading-zero);
-    position:absolute;left:0;top:.15rem;
-    font-size:.8125rem;color:var(--brass);font-variant-numeric:tabular-nums;
-  }
-
-  .scopenote{margin:1.75rem 0 0;padding-top:1.25rem;border-top:1px solid var(--rule);font-size:.9375rem;color:var(--slate)}
-
-  /* ---- register ---- */
-  .register{background:#fff;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
-  label{display:block;font-size:.9375rem;color:var(--slate);margin:0 0 .5rem}
-  select{
-    -webkit-appearance:none;appearance:none;
-    width:100%;font:inherit;color:var(--ink);
-    background:var(--ground) url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='8'><path d='M1 1l5 5 5-5' fill='none' stroke='%235C6370' stroke-width='1.5'/></svg>") no-repeat right 1rem center;
-    border:1px solid var(--rule);border-radius:2px;
-    padding:.85rem 2.75rem .85rem 1rem;
-  }
+  .register{background:var(--navy);color:#fff;border-top:0}
+  .register h2{color:#fff}
+  .register-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:4rem;align-items:start}
+  .register-copy{color:#CAD1DD}
+  .credential{margin-top:2rem;padding-top:1.3rem;border-top:1px solid rgba(255,255,255,.2);font-size:.9rem;color:#AEB8C8}
+  .form-panel{background:#fff;color:var(--ink);padding:2rem;border-radius:3px}
+  label{display:block;margin:0 0 .5rem;color:var(--slate);font-size:.9rem}
+  select{-webkit-appearance:none;appearance:none;width:100%;font:inherit;color:var(--ink);background:var(--ground) url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='8'><path d='M1 1l5 5 5-5' fill='none' stroke='%235C6370' stroke-width='1.5'/></svg>") no-repeat right 1rem center;border:1px solid var(--rule);border-radius:2px;padding:.85rem 2.75rem .85rem 1rem}
   select:focus-visible{outline:2px solid var(--brass);outline-offset:2px}
-  .field + .field{margin-top:1.75rem}
-
-  .price{
-    margin:2.25rem 0 0;padding:1.75rem 0 0;border-top:1px solid var(--rule);
-    display:flex;align-items:baseline;justify-content:space-between;gap:1rem;flex-wrap:wrap;
-  }
-  .price .amount{
-    font-family:"Cormorant Garamond",Georgia,serif;
-    font-weight:400;font-size:3rem;line-height:1;color:var(--navy);
-    transition:opacity .22s ease;
-  }
+  .price{margin:1.8rem 0 0;padding:1.45rem 0 0;border-top:1px solid var(--rule);display:flex;align-items:baseline;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+  .price .amount{font-family:"Cormorant Garamond",Georgia,serif;font-size:3.2rem;line-height:1;color:var(--navy);transition:opacity .18s ease}
   .price .amount.swap{opacity:0}
-  .price .terms{font-size:.9375rem;color:var(--slate);text-align:right;flex:1 1 12rem}
-
-  a.pay{
-    display:block;margin-top:1.75rem;padding:1.1rem 1.5rem;
-    background:var(--navy);color:var(--ground);
-    text-align:center;text-decoration:none;border-radius:2px;
-    font-size:1.0625rem;font-weight:500;
-    transition:background .18s ease;
-  }
-  a.pay:hover,a.pay:focus-visible{background:#0F1A30}
-  a.pay:focus-visible{outline:2px solid var(--brass);outline-offset:3px}
-  .paynote{margin-top:.9rem;font-size:.875rem;color:var(--slate);text-align:center}
-
-  /* ---- footer ---- */
-  footer{padding:2.75rem 0 4rem;font-size:.9375rem;color:var(--slate)}
+  .price .terms{flex:1 1 13rem;color:var(--slate);font-size:.9rem;text-align:right}
+  a.pay{display:flex;width:100%;margin-top:1.4rem}
+  .paynote{margin-top:.8rem;color:var(--slate);font-size:.8rem;line-height:1.5;text-align:center}
+  footer{padding:2rem 0 6rem;color:var(--slate);font-size:.86rem}
   footer a{color:var(--navy)}
+  .mobile-register{display:none}
 
-  @media (max-width:32rem){
-    dl.facts{grid-template-columns:1fr;gap:.35rem}
-    dl.facts dt{font-size:.875rem}
-    dl.facts dd{margin-bottom:.9rem}
-    .price{flex-direction:column;align-items:flex-start}
+  @media (max-width:52rem){
+    .hero-grid,.preview-grid,.details-grid,.register-grid{grid-template-columns:1fr;gap:2.2rem}
+    .hero-action{border-left:0;border-top:1px solid rgba(255,255,255,.22);padding:1.5rem 0 0}
+    .hero-action .button{width:auto}
+    .outcome-grid{grid-template-columns:1fr}
+    .who{border-left:0;border-top:1px solid var(--rule);padding:2rem 0 0}
+  }
+  @media (max-width:36rem){
+    body{font-size:16px}
+    .wrap{width:min(var(--measure),calc(100% - 2rem))}
+    section{padding:3.6rem 0}
+    .masthead{padding:4rem 0 3.2rem}
+    h1{font-size:3.45rem}
+    .method{grid-template-columns:repeat(2,1fr)}
+    .method div:nth-child(2){border-right:0}
+    .method div:nth-child(-n+2){border-bottom:1px solid var(--rule)}
+    .method div:first-child,.method div:nth-child(3){padding-left:0}
+    .cases-grid{grid-template-columns:1fr}
+    dl.facts{grid-template-columns:1fr;gap:.2rem}
+    dl.facts dd{margin-bottom:.8rem}
+    .form-panel{padding:1.25rem}
+    .price{align-items:flex-start;flex-direction:column}
     .price .terms{text-align:left}
+    footer{padding-bottom:7rem}
+    .mobile-register{display:flex;position:fixed;z-index:10;left:0;right:0;bottom:0;align-items:center;justify-content:space-between;gap:1rem;padding:.72rem 1rem;background:#fff;border-top:1px solid var(--rule);box-shadow:0 -8px 24px rgba(25,39,67,.08)}
+    .mobile-register span{color:var(--navy);font-size:.86rem;font-weight:600}
+    .mobile-register .button{min-height:2.7rem;padding:.55rem 1rem;font-size:.88rem}
   }
-  @media (prefers-reduced-motion:reduce){
-    *{transition:none !important}
-  }
+  @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto;transition:none!important}}
 </style>
 </head>
 <body>
 
 <header class="masthead">
-  <div class="wrap">
-    <p class="kicker">Live online masterclass</p>
-    <h1>Occlusion Made Easy</h1>
-    <p class="standfirst">Occlusion from first principles, built up so it makes sense, ending with implants. Sixteen clinicians, one Saturday morning.</p>
+  <div class="wrap hero-grid">
+    <div>
+      <p class="eyebrow">Live, case-based masterclass for dentists</p>
+      <h1>Occlusion Made Easy</h1>
+      <p class="standfirst">A repeatable way to examine, interpret and manage occlusion. From the crown that feels high to implant restorations and review visits.</p>
+    </div>
+    <div class="hero-action">
+      <p class="date">Saturday 19 September 2026</p>
+      <p class="time">9:00 am New York · 6:30 pm India<br>Two hours live on Zoom · Replay included</p>
+      <a class="button" href="#register">View tuition and register</a>
+      <small>Limited to 16 clinicians. No CE credit.</small>
+    </div>
   </div>
 </header>
 
-<section class="wrap">
-  <h2>The session</h2>
-  <dl class="facts">
-    <dt>Date</dt>
-    <dd>Saturday 19 September 2026</dd>
-
-    <dt>Time</dt>
-    <dd>9:00 am New York
-      <small>6:30 pm India · 5:00 pm Gulf · 2:00 pm London</small>
-    </dd>
-
-    <dt>Length</dt>
-    <dd>Two hours. Ninety minutes teaching, thirty minutes cases and questions.</dd>
-
-    <dt>Where</dt>
-    <dd>Live on Zoom. The link arrives by email once you register.</dd>
-
-    <dt>Cohort</dt>
-    <dd>Sixteen clinicians. Small enough that you can interrupt me.</dd>
-
-    <dt>You get</dt>
-    <dd>A summary handout as a PDF afterwards.
-      <small>The slides themselves are not distributed. <!-- EDIT: state your recording policy here, e.g. "A recording is available for 30 days." --></small>
-    </dd>
-
-    <dt>CE credit</dt>
-    <dd>None. This is teaching, not accreditation.</dd>
-
-    <dt>Refunds</dt>
-    <dd>Full refund up to 48 hours before the session, no questions.</dd>
-  </dl>
-</section>
-
-<section class="wrap">
-  <h2>What we cover</h2>
-  <ol class="syllabus">
-    <li>What occlusion actually is, in language you can use with a patient.</li>
-    <li>The reference positions, and which ones matter in daily practice.</li>
-    <li>Reading contacts. What articulating paper tells you and what it cannot.</li>
-    <li>Implant occlusion. Why the rules change, and what to do at delivery.</li>
-    <li>The cases that go wrong, and the point at which they went wrong.</li>
-  </ol>
-  <p class="scopenote">Vertical dimension is a session of its own and is not covered here.</p>
-</section>
-
-<section class="register">
-  <div class="wrap">
-    <h2>Register</h2>
-
-    <div class="field">
-      <label for="country">Where do you practise?</label>
-      <select id="country">
-        <option value="" disabled>Select a country</option>
-      </select>
-    </div>
-
-    <div class="field">
-      <label for="focus">Which cases give you the most trouble? (optional)</label>
-      <select id="focus">
-        <option value="">Rather not say</option>
-        <option value="single-crowns">Single implant crowns</option>
-        <option value="full-arch">Full-arch prostheses</option>
-        <option value="opposing-removable">Implants opposing a removable prosthesis</option>
-        <option value="natural-dentition">Occlusion on natural teeth</option>
-      </select>
-    </div>
-
-    <div class="price">
-      <span class="amount" id="amount">$99</span>
-      <span class="terms" id="terms">One price. Sixteen seats.</span>
-    </div>
-
-    <a class="pay" id="pay" href="#">Continue to payment</a>
-    <p class="paynote" id="paynote">Payment is handled by Stripe. You will be asked for your name, email and phone number there.</p>
+<div class="method-band" aria-label="The chairside method">
+  <div class="wrap method">
+    <div><span>01</span><strong>Listen</strong></div>
+    <div><span>02</span><strong>Look</strong></div>
+    <div><span>03</span><strong>Test</strong></div>
+    <div><span>04</span><strong>Decide</strong></div>
   </div>
-</section>
+</div>
 
-<footer class="wrap">
-  <p>Dr. Akshay Parmar, BDS DDS MDSc FACP FAAMP. Board-certified prosthodontist.<br>
-  Questions before you register? Message <a href="https://www.instagram.com/dr.akshayparmar/">@dr.akshayparmar</a>.</p>
-</footer>
+<main>
+  <section>
+    <div class="wrap">
+      <p class="eyebrow">What you leave with</p>
+      <h2>Stop adjusting the mark. Start diagnosing the problem.</h2>
+      <p class="intro">This session turns a difficult subject into one consistent clinical sequence. You will use it for a routine crown, an implant restoration and the patient who returns with a new problem.</p>
+      <div class="outcome-grid">
+        <article class="card"><span class="number">01 · EXAMINE</span><h3>A consistent check</h3><p>Assess symptoms, support, fit, closure, contacts and movement in the same order.</p></article>
+        <article class="card"><span class="number">02 · DECIDE</span><h3>A reasoned action</h3><p>Know when to preserve, adjust conservatively, investigate further or stop and refer.</p></article>
+        <article class="card"><span class="number">03 · RECORD</span><h3>A useful baseline</h3><p>Document what you found, what changed and what needs to be reviewed later.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="preview">
+    <div class="wrap preview-grid">
+      <div>
+        <div class="course-frame"><img src="assets/course-preview.png" alt="Teaching slide comparing the support and movement of a natural tooth and an implant under load"></div>
+        <p class="caption">One of the teaching diagrams from the working masterclass. The course material continues to be refined before delivery.</p>
+      </div>
+      <div class="preview-copy">
+        <p class="eyebrow">Inside the teaching</p>
+        <h2>The same mark does not mean the same thing everywhere.</h2>
+        <p>A natural tooth, an implant and a removable base respond differently under load. We use the supporting anatomy to interpret what the contact may mean.</p>
+        <ul>
+          <li>Paper locates contact. It does not measure force.</li>
+          <li>Shimstock tests whether a contact holds in that examination.</li>
+          <li>Movement and support determine the clinical consequence.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <p class="eyebrow">The cases</p>
+      <h2>We work through the decisions clinicians meet in practice.</h2>
+      <div class="cases-grid">
+        <article class="case"><b>01</b><div><strong>The crown that feels high</strong><p>Fit before adjustment, repeatable closure and a small, deliberate correction.</p></div></article>
+        <article class="case"><b>02</b><div><strong>An implant beside natural teeth</strong><p>Different support, light and firmer closure, excursions and the path of the load.</p></div></article>
+        <article class="case"><b>03</b><div><strong>An implant-supported bridge</strong><p>Separate fit, components, support and design from the coloured marks.</p></div></article>
+        <article class="case"><b>04</b><div><strong>The patient who returns</strong><p>Food packing, movement, wear, chipping and biological findings at review.</p></div></article>
+        <article class="case"><b>05</b><div><strong>From digital design to the mouth</strong><p>What the laboratory can design and what still needs to be verified clinically.</p></div></article>
+        <article class="case"><b>06</b><div><strong>The moment to stop</strong><p>Recognise when the diagnosis is uncertain or the correction is becoming too extensive.</p></div></article>
+      </div>
+      <p class="scope"><strong>Scope:</strong> Vertical dimension is a separate session and is not covered in this masterclass.</p>
+    </div>
+  </section>
+
+  <section class="details">
+    <div class="wrap details-grid">
+      <div><p class="eyebrow">The session</p><h2>One Saturday. A small room. Questions are welcome.</h2></div>
+      <div>
+        <dl class="facts">
+          <dt>Date</dt><dd>Saturday 19 September 2026</dd>
+          <dt>Time</dt><dd>9:00 am New York<small>6:30 pm India · 5:00 pm Gulf · 2:00 pm London</small></dd>
+          <dt>Length</dt><dd>Two hours<small>Ninety minutes teaching and thirty minutes for cases and questions.</small></dd>
+          <dt>Where</dt><dd>Live on Zoom<small>The private link arrives by email after registration.</small></dd>
+          <dt>Cohort</dt><dd>Maximum 16 clinicians<small>Small enough to interrupt, clarify and discuss a finding.</small></dd>
+          <dt>You receive</dt><dd>Session replay and summary handout<small>The private replay link and handout arrive after the live session. The teaching slides themselves are not distributed.</small></dd>
+          <dt>CE credit</dt><dd>None<small>This is independent clinical teaching, not accreditation.</small></dd>
+          <dt>Refunds</dt><dd>Full refund up to 48 hours before the session, no questions.</dd>
+        </dl>
+      </div>
+      <div></div>
+      <div class="who">
+        <h3>Designed for</h3>
+        <ul>
+          <li>General dentists who restore crowns and implants</li>
+          <li>Prosthodontists and restorative dentists</li>
+          <li>Implant dentists and postgraduate residents</li>
+          <li>Clinicians who want a repeatable examination rather than another list of rules</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="register" id="register">
+    <div class="wrap register-grid">
+      <div>
+        <p class="eyebrow">Registration</p>
+        <h2>Choose where you practise to see your tuition.</h2>
+        <p class="register-copy">Registration is confirmed after payment. Use the email address where you want the Zoom and replay links delivered.</p>
+        <p class="credential">Dr. Akshay Parmar, BDS DDS MDSc FACP FAAMP<br>Board-certified prosthodontist</p>
+      </div>
+      <div class="form-panel">
+        <label for="country">Where do you practise?</label>
+        <select id="country"><option value="" disabled>Select a country</option></select>
+        <div class="price">
+          <span class="amount" id="amount">$79</span>
+          <span class="terms" id="terms">Tuition includes the live session, replay and handout.</span>
+        </div>
+        <a class="button pay" id="pay" href="#">Continue to secure payment</a>
+        <p class="paynote" id="paynote">Payment is handled securely by Stripe.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap"><p>Questions before registering? Message <a href="https://www.instagram.com/dr.akshayparmar/">@dr.akshayparmar</a>.</p></footer>
+<div class="mobile-register"><span>Live · 19 September</span><a class="button" href="#register">Register</a></div>
 
 <script>
-/* ============================================================
-   EDIT THIS BLOCK. Nothing below it needs touching.
-   ============================================================ */
-
 const CONFIG = {
-
-  // Paste your two Stripe payment links here.
-  links: {
-    standard: "https://buy.stripe.com/fZu3cvfdv5Ui1E64YLeZ200",
-    reduced:  "https://buy.stripe.com/5kQeVd3uNaayciK4YLeZ201"
-  },
-
-  // Countries that get the reduced rate.
-  reducedRate: ["IN", "PK", "LK", "NP", "BD", "ID", "PH", "VN", "EG", "KE", "NG", "GH", "TZ"],
-
+  links: {standard: "https://buy.stripe.com/aFa9AT9Tb96uaaCdvheZ204", reduced: "https://buy.stripe.com/cNieVd3uNciGbeGcrdeZ205"},
+  reducedRate: ["IN"],
   pricing: {
-    standard: { amount: "$99", terms: "One price. Sixteen seats." },
-    reduced:  { amount: "$30", terms: "Reduced tuition for eligible countries. Your card will show your local equivalent at checkout." }
+    standard: { amount: "$79", terms: "Tuition includes the live session, replay and handout." },
+    reduced: { amount: "₹1,999", terms: "India regional tuition, charged directly in INR." }
   }
 };
 
-/* ============================================================ */
-
 const COUNTRIES = [
-  ["US","United States"],["IN","India"],["CA","Canada"],["GB","United Kingdom"],
-  ["AE","United Arab Emirates"],["SA","Saudi Arabia"],["QA","Qatar"],["KW","Kuwait"],
-  ["EG","Egypt"],
-  ["OM","Oman"],["BH","Bahrain"],["AU","Australia"],["NZ","New Zealand"],
-  ["SG","Singapore"],["MY","Malaysia"],["ID","Indonesia"],["VN","Vietnam"],
-  ["NP","Nepal"],["LK","Sri Lanka"],
-  ["BD","Bangladesh"],["PK","Pakistan"],["ZA","South Africa"],["KE","Kenya"],
-  ["NG","Nigeria"],["GH","Ghana"],["TZ","Tanzania"],["IE","Ireland"],
-  ["DE","Germany"],["NL","Netherlands"],["ES","Spain"],["IT","Italy"],
-  ["BR","Brazil"],["MX","Mexico"],["PH","Philippines"],["XX","Somewhere else"]
+  ["US","United States"],["IN","India"],["CA","Canada"],["GB","United Kingdom"],["AE","United Arab Emirates"],["SA","Saudi Arabia"],["QA","Qatar"],["KW","Kuwait"],["EG","Egypt"],["OM","Oman"],["BH","Bahrain"],["AU","Australia"],["NZ","New Zealand"],["SG","Singapore"],["MY","Malaysia"],["ID","Indonesia"],["VN","Vietnam"],["NP","Nepal"],["LK","Sri Lanka"],["BD","Bangladesh"],["PK","Pakistan"],["ZA","South Africa"],["KE","Kenya"],["NG","Nigeria"],["GH","Ghana"],["TZ","Tanzania"],["IE","Ireland"],["DE","Germany"],["NL","Netherlands"],["ES","Spain"],["IT","Italy"],["BR","Brazil"],["MX","Mexico"],["PH","Philippines"],["XX","Somewhere else"]
 ];
 
-// Timezone to country. Only needs to be good enough to preselect the dropdown.
 const TZ = {
-  "Asia/Kolkata":"IN","Asia/Calcutta":"IN","Asia/Dubai":"AE","Asia/Riyadh":"SA",
-  "Asia/Qatar":"QA","Asia/Kuwait":"KW","Asia/Muscat":"OM","Asia/Bahrain":"BH",
-  "Asia/Karachi":"PK","Asia/Dhaka":"BD","Asia/Kathmandu":"NP","Asia/Colombo":"LK",
-  "Asia/Singapore":"SG","Asia/Kuala_Lumpur":"MY","Asia/Jakarta":"ID",
-  "Asia/Makassar":"ID","Asia/Jayapura":"ID","Asia/Manila":"PH",
-  "Asia/Ho_Chi_Minh":"VN","Asia/Saigon":"VN","Africa/Cairo":"EG",
-  "Africa/Nairobi":"KE","Africa/Lagos":"NG","Africa/Accra":"GH",
-  "Africa/Dar_es_Salaam":"TZ",
-  "Europe/London":"GB","Europe/Dublin":"IE","Europe/Berlin":"DE",
-  "Europe/Amsterdam":"NL","Europe/Madrid":"ES","Europe/Rome":"IT",
-  "Australia/Sydney":"AU","Australia/Melbourne":"AU","Australia/Brisbane":"AU",
-  "Australia/Perth":"AU","Pacific/Auckland":"NZ",
-  "Africa/Johannesburg":"ZA","America/Sao_Paulo":"BR","America/Mexico_City":"MX",
-  "America/Toronto":"CA","America/Vancouver":"CA","America/Edmonton":"CA",
-  "America/Winnipeg":"CA","America/Halifax":"CA"
+  "Asia/Kolkata":"IN","Asia/Calcutta":"IN","Asia/Dubai":"AE","Asia/Riyadh":"SA","Asia/Qatar":"QA","Asia/Kuwait":"KW","Asia/Muscat":"OM","Asia/Bahrain":"BH","Asia/Karachi":"PK","Asia/Dhaka":"BD","Asia/Kathmandu":"NP","Asia/Colombo":"LK","Asia/Singapore":"SG","Asia/Kuala_Lumpur":"MY","Asia/Jakarta":"ID","Asia/Makassar":"ID","Asia/Jayapura":"ID","Asia/Manila":"PH","Asia/Ho_Chi_Minh":"VN","Asia/Saigon":"VN","Africa/Cairo":"EG","Africa/Nairobi":"KE","Africa/Lagos":"NG","Africa/Accra":"GH","Africa/Dar_es_Salaam":"TZ","Europe/London":"GB","Europe/Dublin":"IE","Europe/Berlin":"DE","Europe/Amsterdam":"NL","Europe/Madrid":"ES","Europe/Rome":"IT","Australia/Sydney":"AU","Australia/Melbourne":"AU","Australia/Brisbane":"AU","Australia/Perth":"AU","Pacific/Auckland":"NZ","Africa/Johannesburg":"ZA","America/Sao_Paulo":"BR","America/Mexico_City":"MX","America/Toronto":"CA","America/Vancouver":"CA","America/Edmonton":"CA","America/Winnipeg":"CA","America/Halifax":"CA"
 };
 
 const countryEl = document.getElementById("country");
-const focusEl   = document.getElementById("focus");
-const amountEl  = document.getElementById("amount");
-const termsEl   = document.getElementById("terms");
-const payEl     = document.getElementById("pay");
+const amountEl = document.getElementById("amount");
+const termsEl = document.getElementById("terms");
+const payEl = document.getElementById("pay");
 const payNoteEl = document.getElementById("paynote");
 
 COUNTRIES.forEach(([code,name]) => {
-  const o = document.createElement("option");
-  o.value = code; o.textContent = name;
-  countryEl.appendChild(o);
+  const option = document.createElement("option");
+  option.value = code;
+  option.textContent = name;
+  countryEl.appendChild(option);
 });
 
 function guessCountry(){
@@ -297,18 +303,18 @@ function guessCountry(){
     const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
     if (TZ[tz]) return TZ[tz];
     if (tz && tz.startsWith("America/")) return "US";
-    if (tz && tz.startsWith("Europe/"))  return "GB";
-  } catch (e) { /* fall through */ }
+    if (tz && tz.startsWith("Europe/")) return "GB";
+  } catch (error) { /* allow manual choice */ }
   return "";
 }
 
 function render(){
-  const code    = countryEl.value;
+  const code = countryEl.value;
   const country = countryEl.options[countryEl.selectedIndex]?.textContent || "";
   const reduced = CONFIG.reducedRate.includes(code);
-  const band    = reduced ? "reduced" : "standard";
-  const price   = CONFIG.pricing[band];
-  const link    = CONFIG.links[band];
+  const band = reduced ? "reduced" : "standard";
+  const price = CONFIG.pricing[band];
+  const link = CONFIG.links[band];
 
   amountEl.classList.add("swap");
   window.setTimeout(() => {
@@ -322,31 +328,23 @@ function render(){
     payEl.style.opacity = ".45";
     payEl.style.pointerEvents = "none";
     payEl.removeAttribute("href");
-    payNoteEl.textContent = code
-      ? "Payment is not live yet. Message @dr.akshayparmar to hold a seat."
-      : "Choose a country to see the tuition for your region.";
+    payNoteEl.textContent = "Choose a country to see the tuition for your region.";
     return;
   }
 
   payEl.style.opacity = "";
   payEl.style.pointerEvents = "";
   payEl.removeAttribute("aria-disabled");
-
-  const url = new URL(link);
-  if (focusEl.value) url.searchParams.set("client_reference_id", focusEl.value);
-  payEl.href = url.toString();
-
+  payEl.href = link;
   payNoteEl.textContent = reduced
-    ? `Reduced tuition applies to payments made with a card issued in ${country}. Payment is handled by Stripe.`
-    : "Payment is handled by Stripe. You will be asked for your name, email and phone number there.";
+    ? `Stripe will charge ₹1,999 INR for registration from ${country}.`
+    : "Payment is handled securely by Stripe. You will be asked for your name and email there.";
 }
 
 countryEl.value = guessCountry();
 if (!countryEl.value) countryEl.selectedIndex = 0;
 countryEl.addEventListener("change", render);
-focusEl.addEventListener("change", render);
 render();
 </script>
-
 </body>
 </html>
