@@ -103,6 +103,9 @@
   .price .terms{flex:1 1 13rem;color:var(--slate);font-size:.9rem;text-align:right}
   a.pay{display:flex;width:100%;margin-top:1.4rem}
   .paynote{margin-top:.8rem;color:var(--slate);font-size:.8rem;line-height:1.5;text-align:center}
+  .payment-help{display:none;margin-top:1rem;padding:1rem 1.05rem;background:var(--brass-soft);border-left:3px solid var(--brass);color:#604D38;font-size:.84rem;line-height:1.55}
+  .payment-help strong{display:block;color:var(--navy);margin-bottom:.2rem}
+  .payment-help a{color:var(--navy);font-weight:600}
   footer{padding:2rem 0 6rem;color:var(--slate);font-size:.86rem}
   footer a{color:var(--navy)}
   .mobile-register{display:none}
@@ -259,6 +262,10 @@
         </div>
         <a class="button pay" id="pay" href="#">Continue to secure payment</a>
         <p class="paynote" id="paynote">Payment is handled securely by Stripe.</p>
+        <div class="payment-help" id="payment-help">
+          <strong>Using an Indian card?</strong>
+          Enable online transactions and complete your bank's OTP or security approval. If the card still fails, <a href="https://www.instagram.com/dr.akshayparmar/">message @dr.akshayparmar</a> for UPI or bank-transfer registration.
+        </div>
       </div>
     </div>
   </section>
@@ -290,6 +297,7 @@ const amountEl = document.getElementById("amount");
 const termsEl = document.getElementById("terms");
 const payEl = document.getElementById("pay");
 const payNoteEl = document.getElementById("paynote");
+const paymentHelpEl = document.getElementById("payment-help");
 
 COUNTRIES.forEach(([code,name]) => {
   const option = document.createElement("option");
@@ -329,6 +337,7 @@ function render(){
     payEl.style.pointerEvents = "none";
     payEl.removeAttribute("href");
     payNoteEl.textContent = "Choose a country to see the tuition for your region.";
+    paymentHelpEl.style.display = "none";
     return;
   }
 
@@ -339,6 +348,7 @@ function render(){
   payNoteEl.textContent = reduced
     ? `Stripe will charge ₹1,999 INR for registration from ${country}.`
     : "Payment is handled securely by Stripe. You will be asked for your name and email there.";
+  paymentHelpEl.style.display = reduced ? "block" : "none";
 }
 
 countryEl.value = guessCountry();
