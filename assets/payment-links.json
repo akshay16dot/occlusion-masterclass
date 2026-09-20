@@ -1,0 +1,18 @@
+{
+  "regional": {
+    "single": "https://buy.stripe.com/14A7sL2qJciG6Yqaj5eZ209",
+    "two": "https://buy.stripe.com/6oUeVd6GZaaydmO0IveZ20a",
+    "full": "https://buy.stripe.com/cNibJ1aXfbeC1E676TeZ20b",
+    "implants": "https://buy.stripe.com/5kQ8wPaXf2I66Yqaj5eZ20d",
+    "allx": "https://buy.stripe.com/00w6oH5CV1E296y3UHeZ20f",
+    "allxpath": "https://buy.stripe.com/3cIaEXc1jfuSdmObn9eZ20j"
+  },
+  "standard": {
+    "single": "https://buy.stripe.com/fZu6oHghz82q3Me76TeZ206",
+    "two": "https://buy.stripe.com/5kQ9ATghzgyW0A2aj5eZ207",
+    "full": "https://buy.stripe.com/eVq7sL5CV3Ma6YqdvheZ208",
+    "implants": "https://buy.stripe.com/cNiaEX8P7fuSaaCezleZ20c",
+    "allx": "https://buy.stripe.com/14A4gz6GZ5Ui4Qibn9eZ20e",
+    "allxpath": "https://buy.stripe.com/bJe5kD1mF0zY6YqdvheZ20g"
+  }
+}

@@ -1,0 +1,1096 @@
+{
+  "source": "https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups",
+  "checked": "2026-09-20",
+  "countries": [
+    {
+      "code": "AF",
+      "name": "Afghanistan",
+      "tier": "regional"
+    },
+    {
+      "code": "AL",
+      "name": "Albania",
+      "tier": "regional"
+    },
+    {
+      "code": "DZ",
+      "name": "Algeria",
+      "tier": "regional"
+    },
+    {
+      "code": "AS",
+      "name": "American Samoa",
+      "tier": "standard"
+    },
+    {
+      "code": "AD",
+      "name": "Andorra",
+      "tier": "standard"
+    },
+    {
+      "code": "AO",
+      "name": "Angola",
+      "tier": "regional"
+    },
+    {
+      "code": "AG",
+      "name": "Antigua and Barbuda",
+      "tier": "standard"
+    },
+    {
+      "code": "AR",
+      "name": "Argentina",
+      "tier": "regional"
+    },
+    {
+      "code": "AM",
+      "name": "Armenia",
+      "tier": "regional"
+    },
+    {
+      "code": "AW",
+      "name": "Aruba",
+      "tier": "standard"
+    },
+    {
+      "code": "AU",
+      "name": "Australia",
+      "tier": "standard"
+    },
+    {
+      "code": "AT",
+      "name": "Austria",
+      "tier": "standard"
+    },
+    {
+      "code": "AZ",
+      "name": "Azerbaijan",
+      "tier": "regional"
+    },
+    {
+      "code": "BS",
+      "name": "Bahamas, The",
+      "tier": "standard"
+    },
+    {
+      "code": "BH",
+      "name": "Bahrain",
+      "tier": "standard"
+    },
+    {
+      "code": "BD",
+      "name": "Bangladesh",
+      "tier": "regional"
+    },
+    {
+      "code": "BB",
+      "name": "Barbados",
+      "tier": "standard"
+    },
+    {
+      "code": "BY",
+      "name": "Belarus",
+      "tier": "regional"
+    },
+    {
+      "code": "BE",
+      "name": "Belgium",
+      "tier": "standard"
+    },
+    {
+      "code": "BZ",
+      "name": "Belize",
+      "tier": "regional"
+    },
+    {
+      "code": "BJ",
+      "name": "Benin",
+      "tier": "regional"
+    },
+    {
+      "code": "BM",
+      "name": "Bermuda",
+      "tier": "standard"
+    },
+    {
+      "code": "BT",
+      "name": "Bhutan",
+      "tier": "regional"
+    },
+    {
+      "code": "BO",
+      "name": "Bolivia",
+      "tier": "regional"
+    },
+    {
+      "code": "BA",
+      "name": "Bosnia and Herzegovina",
+      "tier": "regional"
+    },
+    {
+      "code": "BW",
+      "name": "Botswana",
+      "tier": "regional"
+    },
+    {
+      "code": "BR",
+      "name": "Brazil",
+      "tier": "regional"
+    },
+    {
+      "code": "VG",
+      "name": "British Virgin Islands",
+      "tier": "standard"
+    },
+    {
+      "code": "BN",
+      "name": "Brunei Darussalam",
+      "tier": "standard"
+    },
+    {
+      "code": "BG",
+      "name": "Bulgaria",
+      "tier": "standard"
+    },
+    {
+      "code": "BF",
+      "name": "Burkina Faso",
+      "tier": "regional"
+    },
+    {
+      "code": "BI",
+      "name": "Burundi",
+      "tier": "regional"
+    },
+    {
+      "code": "CV",
+      "name": "Cabo Verde",
+      "tier": "regional"
+    },
+    {
+      "code": "KH",
+      "name": "Cambodia",
+      "tier": "regional"
+    },
+    {
+      "code": "CM",
+      "name": "Cameroon",
+      "tier": "regional"
+    },
+    {
+      "code": "CA",
+      "name": "Canada",
+      "tier": "standard"
+    },
+    {
+      "code": "KY",
+      "name": "Cayman Islands",
+      "tier": "standard"
+    },
+    {
+      "code": "CF",
+      "name": "Central African Republic",
+      "tier": "regional"
+    },
+    {
+      "code": "TD",
+      "name": "Chad",
+      "tier": "regional"
+    },
+    {
+      "code": "JG",
+      "name": "Channel Islands",
+      "tier": "standard"
+    },
+    {
+      "code": "CL",
+      "name": "Chile",
+      "tier": "standard"
+    },
+    {
+      "code": "CN",
+      "name": "China",
+      "tier": "regional"
+    },
+    {
+      "code": "CO",
+      "name": "Colombia",
+      "tier": "regional"
+    },
+    {
+      "code": "KM",
+      "name": "Comoros",
+      "tier": "regional"
+    },
+    {
+      "code": "CD",
+      "name": "Congo, Dem. Rep.",
+      "tier": "regional"
+    },
+    {
+      "code": "CG",
+      "name": "Congo, Rep.",
+      "tier": "regional"
+    },
+    {
+      "code": "CR",
+      "name": "Costa Rica",
+      "tier": "standard"
+    },
+    {
+      "code": "CI",
+      "name": "Cote d'Ivoire",
+      "tier": "regional"
+    },
+    {
+      "code": "HR",
+      "name": "Croatia",
+      "tier": "standard"
+    },
+    {
+      "code": "CU",
+      "name": "Cuba",
+      "tier": "regional"
+    },
+    {
+      "code": "CW",
+      "name": "Curacao",
+      "tier": "standard"
+    },
+    {
+      "code": "CY",
+      "name": "Cyprus",
+      "tier": "standard"
+    },
+    {
+      "code": "CZ",
+      "name": "Czechia",
+      "tier": "standard"
+    },
+    {
+      "code": "DK",
+      "name": "Denmark",
+      "tier": "standard"
+    },
+    {
+      "code": "DJ",
+      "name": "Djibouti",
+      "tier": "regional"
+    },
+    {
+      "code": "DM",
+      "name": "Dominica",
+      "tier": "regional"
+    },
+    {
+      "code": "DO",
+      "name": "Dominican Republic",
+      "tier": "regional"
+    },
+    {
+      "code": "EC",
+      "name": "Ecuador",
+      "tier": "regional"
+    },
+    {
+      "code": "EG",
+      "name": "Egypt, Arab Rep.",
+      "tier": "regional"
+    },
+    {
+      "code": "SV",
+      "name": "El Salvador",
+      "tier": "regional"
+    },
+    {
+      "code": "GQ",
+      "name": "Equatorial Guinea",
+      "tier": "regional"
+    },
+    {
+      "code": "ER",
+      "name": "Eritrea",
+      "tier": "regional"
+    },
+    {
+      "code": "EE",
+      "name": "Estonia",
+      "tier": "standard"
+    },
+    {
+      "code": "SZ",
+      "name": "Eswatini",
+      "tier": "regional"
+    },
+    {
+      "code": "ET",
+      "name": "Ethiopia",
+      "tier": "regional"
+    },
+    {
+      "code": "FO",
+      "name": "Faroe Islands",
+      "tier": "standard"
+    },
+    {
+      "code": "FJ",
+      "name": "Fiji",
+      "tier": "regional"
+    },
+    {
+      "code": "FI",
+      "name": "Finland",
+      "tier": "standard"
+    },
+    {
+      "code": "FR",
+      "name": "France",
+      "tier": "standard"
+    },
+    {
+      "code": "PF",
+      "name": "French Polynesia",
+      "tier": "standard"
+    },
+    {
+      "code": "GA",
+      "name": "Gabon",
+      "tier": "regional"
+    },
+    {
+      "code": "GM",
+      "name": "Gambia, The",
+      "tier": "regional"
+    },
+    {
+      "code": "GE",
+      "name": "Georgia",
+      "tier": "regional"
+    },
+    {
+      "code": "DE",
+      "name": "Germany",
+      "tier": "standard"
+    },
+    {
+      "code": "GH",
+      "name": "Ghana",
+      "tier": "regional"
+    },
+    {
+      "code": "GI",
+      "name": "Gibraltar",
+      "tier": "standard"
+    },
+    {
+      "code": "GR",
+      "name": "Greece",
+      "tier": "standard"
+    },
+    {
+      "code": "GL",
+      "name": "Greenland",
+      "tier": "standard"
+    },
+    {
+      "code": "GD",
+      "name": "Grenada",
+      "tier": "regional"
+    },
+    {
+      "code": "GU",
+      "name": "Guam",
+      "tier": "standard"
+    },
+    {
+      "code": "GT",
+      "name": "Guatemala",
+      "tier": "regional"
+    },
+    {
+      "code": "GN",
+      "name": "Guinea",
+      "tier": "regional"
+    },
+    {
+      "code": "GW",
+      "name": "Guinea-Bissau",
+      "tier": "regional"
+    },
+    {
+      "code": "GY",
+      "name": "Guyana",
+      "tier": "standard"
+    },
+    {
+      "code": "HT",
+      "name": "Haiti",
+      "tier": "regional"
+    },
+    {
+      "code": "HN",
+      "name": "Honduras",
+      "tier": "regional"
+    },
+    {
+      "code": "HK",
+      "name": "Hong Kong SAR, China",
+      "tier": "standard"
+    },
+    {
+      "code": "HU",
+      "name": "Hungary",
+      "tier": "standard"
+    },
+    {
+      "code": "IS",
+      "name": "Iceland",
+      "tier": "standard"
+    },
+    {
+      "code": "IN",
+      "name": "India",
+      "tier": "regional"
+    },
+    {
+      "code": "ID",
+      "name": "Indonesia",
+      "tier": "regional"
+    },
+    {
+      "code": "IR",
+      "name": "Iran, Islamic Rep.",
+      "tier": "regional"
+    },
+    {
+      "code": "IQ",
+      "name": "Iraq",
+      "tier": "regional"
+    },
+    {
+      "code": "IE",
+      "name": "Ireland",
+      "tier": "standard"
+    },
+    {
+      "code": "IM",
+      "name": "Isle of Man",
+      "tier": "standard"
+    },
+    {
+      "code": "IL",
+      "name": "Israel",
+      "tier": "standard"
+    },
+    {
+      "code": "IT",
+      "name": "Italy",
+      "tier": "standard"
+    },
+    {
+      "code": "JM",
+      "name": "Jamaica",
+      "tier": "regional"
+    },
+    {
+      "code": "JP",
+      "name": "Japan",
+      "tier": "standard"
+    },
+    {
+      "code": "JO",
+      "name": "Jordan",
+      "tier": "regional"
+    },
+    {
+      "code": "KZ",
+      "name": "Kazakhstan",
+      "tier": "regional"
+    },
+    {
+      "code": "KE",
+      "name": "Kenya",
+      "tier": "regional"
+    },
+    {
+      "code": "KI",
+      "name": "Kiribati",
+      "tier": "regional"
+    },
+    {
+      "code": "KP",
+      "name": "Korea, Dem. People's Rep.",
+      "tier": "regional"
+    },
+    {
+      "code": "KR",
+      "name": "Korea, Rep.",
+      "tier": "standard"
+    },
+    {
+      "code": "XK",
+      "name": "Kosovo",
+      "tier": "regional"
+    },
+    {
+      "code": "KW",
+      "name": "Kuwait",
+      "tier": "standard"
+    },
+    {
+      "code": "KG",
+      "name": "Kyrgyz Republic",
+      "tier": "regional"
+    },
+    {
+      "code": "LA",
+      "name": "Lao PDR",
+      "tier": "regional"
+    },
+    {
+      "code": "LV",
+      "name": "Latvia",
+      "tier": "standard"
+    },
+    {
+      "code": "LB",
+      "name": "Lebanon",
+      "tier": "regional"
+    },
+    {
+      "code": "LS",
+      "name": "Lesotho",
+      "tier": "regional"
+    },
+    {
+      "code": "LR",
+      "name": "Liberia",
+      "tier": "regional"
+    },
+    {
+      "code": "LY",
+      "name": "Libya",
+      "tier": "regional"
+    },
+    {
+      "code": "LI",
+      "name": "Liechtenstein",
+      "tier": "standard"
+    },
+    {
+      "code": "LT",
+      "name": "Lithuania",
+      "tier": "standard"
+    },
+    {
+      "code": "LU",
+      "name": "Luxembourg",
+      "tier": "standard"
+    },
+    {
+      "code": "MO",
+      "name": "Macao SAR, China",
+      "tier": "standard"
+    },
+    {
+      "code": "MG",
+      "name": "Madagascar",
+      "tier": "regional"
+    },
+    {
+      "code": "MW",
+      "name": "Malawi",
+      "tier": "regional"
+    },
+    {
+      "code": "MY",
+      "name": "Malaysia",
+      "tier": "regional"
+    },
+    {
+      "code": "MV",
+      "name": "Maldives",
+      "tier": "regional"
+    },
+    {
+      "code": "ML",
+      "name": "Mali",
+      "tier": "regional"
+    },
+    {
+      "code": "MT",
+      "name": "Malta",
+      "tier": "standard"
+    },
+    {
+      "code": "MH",
+      "name": "Marshall Islands",
+      "tier": "regional"
+    },
+    {
+      "code": "MR",
+      "name": "Mauritania",
+      "tier": "regional"
+    },
+    {
+      "code": "MU",
+      "name": "Mauritius",
+      "tier": "regional"
+    },
+    {
+      "code": "MX",
+      "name": "Mexico",
+      "tier": "regional"
+    },
+    {
+      "code": "FM",
+      "name": "Micronesia, Fed. Sts.",
+      "tier": "regional"
+    },
+    {
+      "code": "MD",
+      "name": "Moldova",
+      "tier": "regional"
+    },
+    {
+      "code": "MC",
+      "name": "Monaco",
+      "tier": "standard"
+    },
+    {
+      "code": "MN",
+      "name": "Mongolia",
+      "tier": "regional"
+    },
+    {
+      "code": "ME",
+      "name": "Montenegro",
+      "tier": "regional"
+    },
+    {
+      "code": "MA",
+      "name": "Morocco",
+      "tier": "regional"
+    },
+    {
+      "code": "MZ",
+      "name": "Mozambique",
+      "tier": "regional"
+    },
+    {
+      "code": "MM",
+      "name": "Myanmar",
+      "tier": "regional"
+    },
+    {
+      "code": "NA",
+      "name": "Namibia",
+      "tier": "regional"
+    },
+    {
+      "code": "NR",
+      "name": "Naoero",
+      "tier": "standard"
+    },
+    {
+      "code": "NP",
+      "name": "Nepal",
+      "tier": "regional"
+    },
+    {
+      "code": "NL",
+      "name": "Netherlands",
+      "tier": "standard"
+    },
+    {
+      "code": "NC",
+      "name": "New Caledonia",
+      "tier": "standard"
+    },
+    {
+      "code": "NZ",
+      "name": "New Zealand",
+      "tier": "standard"
+    },
+    {
+      "code": "NI",
+      "name": "Nicaragua",
+      "tier": "regional"
+    },
+    {
+      "code": "NE",
+      "name": "Niger",
+      "tier": "regional"
+    },
+    {
+      "code": "NG",
+      "name": "Nigeria",
+      "tier": "regional"
+    },
+    {
+      "code": "MK",
+      "name": "North Macedonia",
+      "tier": "regional"
+    },
+    {
+      "code": "MP",
+      "name": "Northern Mariana Islands",
+      "tier": "standard"
+    },
+    {
+      "code": "NO",
+      "name": "Norway",
+      "tier": "standard"
+    },
+    {
+      "code": "OM",
+      "name": "Oman",
+      "tier": "standard"
+    },
+    {
+      "code": "PK",
+      "name": "Pakistan",
+      "tier": "regional"
+    },
+    {
+      "code": "PW",
+      "name": "Palau",
+      "tier": "standard"
+    },
+    {
+      "code": "PA",
+      "name": "Panama",
+      "tier": "standard"
+    },
+    {
+      "code": "PG",
+      "name": "Papua New Guinea",
+      "tier": "regional"
+    },
+    {
+      "code": "PY",
+      "name": "Paraguay",
+      "tier": "regional"
+    },
+    {
+      "code": "PE",
+      "name": "Peru",
+      "tier": "regional"
+    },
+    {
+      "code": "PH",
+      "name": "Philippines",
+      "tier": "regional"
+    },
+    {
+      "code": "PL",
+      "name": "Poland",
+      "tier": "standard"
+    },
+    {
+      "code": "PT",
+      "name": "Portugal",
+      "tier": "standard"
+    },
+    {
+      "code": "PR",
+      "name": "Puerto Rico (US)",
+      "tier": "standard"
+    },
+    {
+      "code": "QA",
+      "name": "Qatar",
+      "tier": "standard"
+    },
+    {
+      "code": "RO",
+      "name": "Romania",
+      "tier": "standard"
+    },
+    {
+      "code": "RU",
+      "name": "Russian Federation",
+      "tier": "standard"
+    },
+    {
+      "code": "RW",
+      "name": "Rwanda",
+      "tier": "regional"
+    },
+    {
+      "code": "WS",
+      "name": "Samoa",
+      "tier": "regional"
+    },
+    {
+      "code": "SM",
+      "name": "San Marino",
+      "tier": "standard"
+    },
+    {
+      "code": "ST",
+      "name": "Sao Tome and Principe",
+      "tier": "regional"
+    },
+    {
+      "code": "SA",
+      "name": "Saudi Arabia",
+      "tier": "standard"
+    },
+    {
+      "code": "SN",
+      "name": "Senegal",
+      "tier": "regional"
+    },
+    {
+      "code": "RS",
+      "name": "Serbia",
+      "tier": "regional"
+    },
+    {
+      "code": "SC",
+      "name": "Seychelles",
+      "tier": "standard"
+    },
+    {
+      "code": "SL",
+      "name": "Sierra Leone",
+      "tier": "regional"
+    },
+    {
+      "code": "SG",
+      "name": "Singapore",
+      "tier": "standard"
+    },
+    {
+      "code": "SX",
+      "name": "Sint Maarten (Dutch part)",
+      "tier": "standard"
+    },
+    {
+      "code": "SK",
+      "name": "Slovak Republic",
+      "tier": "standard"
+    },
+    {
+      "code": "SI",
+      "name": "Slovenia",
+      "tier": "standard"
+    },
+    {
+      "code": "SB",
+      "name": "Solomon Islands",
+      "tier": "regional"
+    },
+    {
+      "code": "SO",
+      "name": "Somalia, Fed. Rep.",
+      "tier": "regional"
+    },
+    {
+      "code": "ZA",
+      "name": "South Africa",
+      "tier": "regional"
+    },
+    {
+      "code": "SS",
+      "name": "South Sudan",
+      "tier": "regional"
+    },
+    {
+      "code": "ES",
+      "name": "Spain",
+      "tier": "standard"
+    },
+    {
+      "code": "LK",
+      "name": "Sri Lanka",
+      "tier": "regional"
+    },
+    {
+      "code": "KN",
+      "name": "St. Kitts and Nevis",
+      "tier": "standard"
+    },
+    {
+      "code": "LC",
+      "name": "St. Lucia",
+      "tier": "regional"
+    },
+    {
+      "code": "MF",
+      "name": "St. Martin (French part)",
+      "tier": "standard"
+    },
+    {
+      "code": "VC",
+      "name": "St. Vincent and the Grenadines",
+      "tier": "regional"
+    },
+    {
+      "code": "SD",
+      "name": "Sudan",
+      "tier": "regional"
+    },
+    {
+      "code": "SR",
+      "name": "Suriname",
+      "tier": "regional"
+    },
+    {
+      "code": "SE",
+      "name": "Sweden",
+      "tier": "standard"
+    },
+    {
+      "code": "CH",
+      "name": "Switzerland",
+      "tier": "standard"
+    },
+    {
+      "code": "SY",
+      "name": "Syrian Arab Republic",
+      "tier": "regional"
+    },
+    {
+      "code": "TW",
+      "name": "Taiwan",
+      "tier": "standard"
+    },
+    {
+      "code": "TJ",
+      "name": "Tajikistan",
+      "tier": "regional"
+    },
+    {
+      "code": "TZ",
+      "name": "Tanzania",
+      "tier": "regional"
+    },
+    {
+      "code": "TH",
+      "name": "Thailand",
+      "tier": "regional"
+    },
+    {
+      "code": "TL",
+      "name": "Timor-Leste",
+      "tier": "regional"
+    },
+    {
+      "code": "TG",
+      "name": "Togo",
+      "tier": "regional"
+    },
+    {
+      "code": "TO",
+      "name": "Tonga",
+      "tier": "regional"
+    },
+    {
+      "code": "TT",
+      "name": "Trinidad and Tobago",
+      "tier": "standard"
+    },
+    {
+      "code": "TN",
+      "name": "Tunisia",
+      "tier": "regional"
+    },
+    {
+      "code": "TR",
+      "name": "Turkiye",
+      "tier": "regional"
+    },
+    {
+      "code": "TM",
+      "name": "Turkmenistan",
+      "tier": "regional"
+    },
+    {
+      "code": "TC",
+      "name": "Turks and Caicos Islands",
+      "tier": "standard"
+    },
+    {
+      "code": "TV",
+      "name": "Tuvalu",
+      "tier": "regional"
+    },
+    {
+      "code": "UG",
+      "name": "Uganda",
+      "tier": "regional"
+    },
+    {
+      "code": "UA",
+      "name": "Ukraine",
+      "tier": "regional"
+    },
+    {
+      "code": "AE",
+      "name": "United Arab Emirates",
+      "tier": "standard"
+    },
+    {
+      "code": "GB",
+      "name": "United Kingdom",
+      "tier": "standard"
+    },
+    {
+      "code": "US",
+      "name": "United States",
+      "tier": "standard"
+    },
+    {
+      "code": "UY",
+      "name": "Uruguay",
+      "tier": "standard"
+    },
+    {
+      "code": "UZ",
+      "name": "Uzbekistan",
+      "tier": "regional"
+    },
+    {
+      "code": "VU",
+      "name": "Vanuatu",
+      "tier": "regional"
+    },
+    {
+      "code": "VE",
+      "name": "Venezuela, RB",
+      "tier": "regional"
+    },
+    {
+      "code": "VN",
+      "name": "Viet Nam",
+      "tier": "regional"
+    },
+    {
+      "code": "VI",
+      "name": "Virgin Islands (U.S.)",
+      "tier": "standard"
+    },
+    {
+      "code": "PS",
+      "name": "West Bank and Gaza",
+      "tier": "regional"
+    },
+    {
+      "code": "YE",
+      "name": "Yemen, Rep.",
+      "tier": "regional"
+    },
+    {
+      "code": "ZM",
+      "name": "Zambia",
+      "tier": "regional"
+    },
+    {
+      "code": "ZW",
+      "name": "Zimbabwe",
+      "tier": "regional"
+    }
+  ]
+}
