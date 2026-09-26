@@ -1,4 +1,20 @@
 {
+  "india": {
+    "single": "https://buy.stripe.com/14A7sL2qJciG6Yqaj5eZ209",
+    "two": "https://buy.stripe.com/6oUeVd6GZaaydmO0IveZ20a",
+    "full": "https://buy.stripe.com/cNibJ1aXfbeC1E676TeZ20b",
+    "implants": "https://buy.stripe.com/5kQ8wPaXf2I66Yqaj5eZ20d",
+    "allx": "https://buy.stripe.com/00w6oH5CV1E296y3UHeZ20f",
+    "allxpath": "https://buy.stripe.com/3cIaEXc1jfuSdmObn9eZ20j"
+  },
+  "regional": {
+    "single": "https://buy.stripe.com/bJe6oH6GZeqO4Qi2QDeZ20k",
+    "two": "https://buy.stripe.com/eVqcN56GZfuSdmObn9eZ20l",
+    "full": "https://buy.stripe.com/dRm28rd5n3Ma5Um1MzeZ20n",
+    "implants": "https://buy.stripe.com/eVqcN56GZfuSdmObn9eZ20l",
+    "allx": "https://buy.stripe.com/eVqcN56GZfuSdmObn9eZ20l",
+    "allxpath": "https://buy.stripe.com/28EbJ18P70zYbeG4YLeZ20m"
+  },
   "standard": {
     "single": "https://buy.stripe.com/fZu6oHghz82q3Me76TeZ206",
     "two": "https://buy.stripe.com/5kQ9ATghzgyW0A2aj5eZ207",
